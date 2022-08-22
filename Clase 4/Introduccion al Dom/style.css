@@ -1,0 +1,22 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;  
+}
+
+p{
+    font-size: 30px;
+}
+
+.important{
+    color:blueviolet;
+    font-weight: bold;
+}
+
+.tituloDestacado {
+    color: blue;
+    font-size: 40px;
+    border-radius: 10px;
+
+}
+
+
