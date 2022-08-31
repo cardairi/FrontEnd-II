@@ -1,0 +1,61 @@
+
+
+
+.header {
+    font-family: 'Rajdhani', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 30vh;
+    color: coral;
+} 
+
+.container {
+    font-family: 'Rajdhani', sans-serif;
+    color: black;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    border: 1px solid black;
+    width: 200px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.active {
+    box-shadow: 2px 3px 4px black
+
+}
+    
+/* Agregando el modo dark */
+
+.dark {
+    background-color: black;
+
+}
+
+.dark .header{
+    background-color: black;
+    color: aliceblue;
+}
+
+.dark .container {
+    background-color: black;
+    color: aliceblue;
+}
+
+.dark .card {
+
+    border: 1px solid white;
+}
+
+
+

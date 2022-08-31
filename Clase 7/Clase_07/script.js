@@ -12,6 +12,8 @@ console.log(app)
 app.style.display = 'flex';
 let galeria = [];
 
+
+
 app.classList.add('flex')
 
 function crearCard(url){
@@ -27,10 +29,7 @@ function crearCard(url){
     link.setAttribute('target', '_blank' )
 
     let imagen = document.createElement('img');
-    imagen.setAttribute('class', 'img-responsive');
-    imagen.setAttribute('src', url);
-    imagen.setAttribute('alt', 'Gatito y Perrito');
-
+    imagen = `<img class = 'img-responsive' src = '${url}' alt ='Gatito y Perrito'>`
 
     card.appendChild( link );
     console.log(card, imagen);
@@ -46,6 +45,8 @@ for (let i = 1; i <= 3; i++) {
 
 /* 
 Etapa 3
-
+- Nodo padre: div 
+- Nodo hijo repetitivo: image
+- Explicacion: es uno de los nodos que mas se repite y se le pudo hacer una mejoria 
 
 */
